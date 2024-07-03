@@ -1,0 +1,15 @@
+id = "angualr"
+name = "Angualr"
+description = "Angualr support."
+version = "0.1.0"
+schema_version = 1
+authors = ["Giorgio Matacera <mataceragiorgio@gmail.com>"]
+repository = ""
+
+[language_servers.vscode-ng-language-service]
+name = "ngserver"
+language = "html"
+
+[grammars.angular]
+repository = "https://github.com/nvim-treesitter/nvim-treesitter-angular"
+commit = "07dcacac45a27516273a13af2fd9138c9521739c"
